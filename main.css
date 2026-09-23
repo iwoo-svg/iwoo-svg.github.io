@@ -1,0 +1,17 @@
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: lightblue;
+    }
+}
+p {
+}
+a{
+    color:rgb(90, 242, 211);
+}
+a:hover{
+    color:rgb(208, 141, 141);
+    font-size: 30px;
+}
+.paragraph_1{
+    color:rgb(90, 242, 211);
+}
