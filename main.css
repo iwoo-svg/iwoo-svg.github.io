@@ -1,17 +1,45 @@
-@media screen and (max-width: 1000px) {
+@media screen {
     body {
-        background-color: lightblue;
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+
+        position: relative;
+
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        box-sizing: border-box;
+
+        background-color: rgb(255, 254, 255);
+
+        font-family: "IBM Plex Mono", monospace;
+         font-weight: 500;
     }
 }
+
+h1,
 p {
+    width: 100%;
+    max-width: 600px;
 }
-a{
-    color:rgb(90, 242, 211);
+
+a {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
 }
-a:hover{
-    color:rgb(208, 141, 141);
-    font-size: 30px;
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 255);
 }
-.paragraph_1{
-    color:rgb(90, 242, 211);
+
+.paragraph_1 {
+    color: rgb(255, 0, 0);
 }
